@@ -188,7 +188,7 @@ export default function AboutPage() {
                 <div className="w-24 h-24 bg-primary/10 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
                   <Image
                     src="https://placehold.co/96x96"
-                    alt="Darryl Sandrina Faisal Putri"
+                    alt="Adi Ahmad Hidayat"
                     width={96}
                     height={96}
                     className="rounded-full object-cover"
@@ -196,7 +196,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Adi Ahmad Hidayat</h3>
                 <p className="text-primary font-medium mb-2">Financial Analyst</p>
-                <p className="text-sm text-muted-foreground text-left py-2 mb-4">-</p>
+                <p className="text-sm text-muted-foreground text-justify py-2 mb-4">-</p>
 
                 {/* Sector Specialization */}
                 <div className="text-left">
@@ -221,13 +221,13 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Darryl Sandrina Faisal Putri</h3>
                 <p className="text-primary font-medium mb-2">Financial Analyst</p>
-                <p className="text-sm text-muted-foreground text-left py-2 mb-4">-</p>
+                <p className="text-sm text-muted-foreground text-justify py-2 mb-4">A financial analyst with a strong academic background, holding a bachelor’s degree from SBM ITB and a master’s degree from Harvard Business School. Over the past five years, she has developed expertise in the capital market, focusing on Digital Telecommunications and Consumer Goods & Retail. </p>
 
                 {/* Sector Specialization */}
                 <div className="text-left">
                   <p className="font-medium text-foreground mb-2">Sector Specialization:</p>
                   <ul className="list-disc list-inside text-sm text-muted-foreground space-y-1">
-                    <li>-</li>
+                    <li>Consumer Goods</li>
                     <li>-</li>
                   </ul>
                 </div>
@@ -247,7 +247,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Dara Eldina Hutajulu</h3>
                 <p className="text-primary font-medium mb-2">Financial Analyst</p>
-                <p className="text-sm text-muted-foreground text-left py-2 mb-4">-</p>
+                <p className="text-sm text-muted-foreground text-justify py-2 mb-4">-</p>
 
                 {/* Sector Specialization */}
                 <div className="text-left">
@@ -273,7 +273,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Jason Jahja</h3>
                 <p className="text-primary font-medium mb-2">Financial Analyst</p>
-                <p className="text-sm text-muted-foreground text-left py-2 mb-4">-</p>
+                <p className="text-sm text-muted-foreground text-justify py-2 mb-4">A financial analyst with a bachelor’s degree from STEI ITB. Over the past three years, he has concentrated on analyzing Raw Materials, Industrials, and Technology sectors, developing a deep understanding of market trends and investment opportunities in these industries.</p>
 
                 {/* Sector Specialization */}
                 <div className="text-left">
@@ -299,7 +299,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Rio Rizky Ramadhan</h3>
                 <p className="text-primary font-medium mb-2">Financial Analyst</p>
-                <p className="text-sm text-muted-foreground text-left py-2 mb-4">-</p>
+                <p className="text-sm text-muted-foreground text-justify py-2 mb-4">-</p>
 
                 {/* Sector Specialization */}
                 <div className="text-left">

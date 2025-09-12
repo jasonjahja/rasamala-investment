@@ -5,11 +5,9 @@ import { Noto_Serif } from "next/font/google"
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: 'Rasamala Investment',
+  description: 'Rasamala Investment builds resilient, sustainable strategies that create long-term value for clients, society, and the environment.',
 }
 
 const notoSerif = Noto_Serif({
