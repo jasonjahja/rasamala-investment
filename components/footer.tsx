@@ -32,19 +32,25 @@ export function Footer() {
               <h3 className="font-semibold text-sidebar-foreground mb-4">Services</h3>
               <ul className="space-y-2 text-muted-foreground">
                 <li>
-                  <a href="#" className="hover:text-primary transition-colors cursor-pointer">
-                    Wealth Management
-                  </a>
+                  <Link href="/services">
+                    <div className="hover:text-primary transition-colors cursor-pointer">
+                      Wealth Management
+                    </div>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary transition-colors cursor-pointer">
-                    Institutional Services
-                  </a>
+                  <Link href="/services">
+                    <div className="hover:text-primary transition-colors cursor-pointer">
+                      Institutional Services
+                    </div>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary transition-colors cursor-pointer">
-                    Advisory Services
-                  </a>
+                  <Link href="/services">
+                    <div className="hover:text-primary transition-colors cursor-pointer">
+                      Advisory Services
+                    </div>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -54,24 +60,32 @@ export function Footer() {
               <h3 className="font-semibold text-sidebar-foreground mb-4">Sectors</h3>
               <ul className="space-y-2 text-muted-foreground">
                 <li>
-                  <a href="#" className="hover:text-primary transition-colors cursor-pointer">
-                    -
-                  </a>
+                  <Link href="/services">
+                    <div className="hover:text-primary transition-colors cursor-pointer">
+                      -
+                    </div>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary transition-colors cursor-pointer">
-                    -
-                  </a>
+                  <Link href="/services">
+                    <div className="hover:text-primary transition-colors cursor-pointer">
+                      -
+                    </div>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary transition-colors cursor-pointer">
-                    -
-                  </a>
+                  <Link href="/services">
+                    <div className="hover:text-primary transition-colors cursor-pointer">
+                      -
+                    </div>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary transition-colors cursor-pointer">
-                    -
-                  </a>
+                  <Link href="/services">
+                    <div className="hover:text-primary transition-colors cursor-pointer">
+                      -
+                    </div>
+                  </Link>
                 </li>
               </ul>
             </div>
