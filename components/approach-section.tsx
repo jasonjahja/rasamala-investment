@@ -4,7 +4,7 @@ import Image from "next/image"
 export function ApproachSection() {
   return (
     <section id="approach" className="py-20 bg-muted">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-12">
         <div className="grid md:grid-cols-3 gap-12 items-center">
           {/* Text Section - takes 2/3 width */}
           <div className="md:col-span-2">

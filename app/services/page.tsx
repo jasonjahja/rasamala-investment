@@ -18,7 +18,7 @@ export default function ServicesPage() {
     <div className="min-h-screen bg-background">
       <Header />
 
-      <main className="container mx-auto px-4 py-16">
+      <main className="container mx-auto px-12 py-16">
         {/* Hero Section */}
         <section className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">

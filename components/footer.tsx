@@ -5,7 +5,7 @@ import Link from "next/link"
 export function Footer() {
   return (
     <footer className="bg-sidebar border-t border-sidebar-border">
-      <div className="container mx-auto px-4 py-16">
+      <div className="container mx-auto px-12 py-16">
         <div className="grid md:grid-cols-[1fr_2fr] gap-16 mb-12">
           {/* Left: Logo + Description */}
           <div className="space-y-4">

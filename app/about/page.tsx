@@ -10,7 +10,7 @@ export default function AboutPage() {
     <div className="min-h-screen bg-background">
       <Header />
 
-      <main className="container mx-auto px-4 py-16">
+      <main className="container mx-auto px-12 py-16">
         {/* Hero Section */}
         <section className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
@@ -63,7 +63,7 @@ export default function AboutPage() {
 
       {/* Company Background (Full Width White Section) */}
       <section className="bg-white mb-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-12">
           {/* Company Background Text */}
           <div>
             <h2 className="text-3xl font-bold text-foreground mb-6">Company <span className="text-primary font-serif">Background</span></h2>
@@ -85,7 +85,7 @@ export default function AboutPage() {
 
       {/* Vision & Mission */}
       <section className="py-16 bg-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-12">
           <div className="grid md:grid-cols-2 gap-12 items-start">
             {/* Vision */}
             <div>
@@ -133,7 +133,7 @@ export default function AboutPage() {
       </section> */}
 
 
-      <main className="container mx-auto px-4 py-16">
+      <main className="container mx-auto px-12 py-16">
         {/* Our Values */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-center text-foreground mb-12">Our <span className="text-primary font-serif">Core Values</span></h2>

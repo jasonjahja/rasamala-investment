@@ -10,7 +10,7 @@ export default function ContactPage() {
     <div className="min-h-screen bg-background">
       <Header />
 
-      <main className="container mx-auto px-4 py-16">
+      <main className="container mx-auto px-12 py-16">
         {/* Hero Section */}
         <section className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
@@ -198,7 +198,7 @@ export default function ContactPage() {
           <Card>
             <CardContent className="px-8">
               {/* Header above the map */}
-              <h2 className="text-2xl text-foreground font-semibold mb-4">
+              <h2 className="text-xl text-foreground font-semibold mb-4">
                 <span className="font-serif">We Are Here!</span>
               </h2>
 
