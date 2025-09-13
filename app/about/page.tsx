@@ -184,10 +184,10 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold text-center text-foreground mb-12">Leadership <span className="text-primary font-serif">Team</span></h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card>
-              <CardContent className="p-6 text-center">
+              <CardContent className="p-6 text-center flex flex-col h-full">
                 <div className="w-24 h-24 bg-primary/10 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
                   <Image
-                    src="https://placehold.co/96x96"
+                    src="/adi.jpg"
                     alt="Adi Ahmad Hidayat"
                     width={96}
                     height={96}
@@ -196,23 +196,24 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Adi Ahmad Hidayat</h3>
                 <p className="text-primary font-medium mb-2">Financial Analyst</p>
-                <p className="text-sm text-muted-foreground text-justify py-2 mb-4">-</p>
+                <p className="text-sm text-muted-foreground text-justify py-2 mb-4">A financial analyst with a solid background in finance and data, and a CFA holder. He has expertise in the capital market with a focus on Financials, Property & Real Estate, and Energy sectors, supported by strong analytical skills in evaluating investment opportunities and market dynamics.</p>
 
                 {/* Sector Specialization */}
-                <div className="text-left">
+                <div className="text-left mt-auto">
                   <p className="font-medium text-foreground mb-2">Sector Specialization:</p>
                   <ul className="list-disc list-inside text-sm text-muted-foreground space-y-1">
-                    <li>-</li>
-                    <li>-</li>
+                    <li>Financials</li>
+                    <li>Property & Real Estate</li>
+                    <li>Energy</li>
                   </ul>
                 </div>
               </CardContent>
             </Card>
             <Card>
-              <CardContent className="p-6 text-center">
+              <CardContent className="p-6 text-center flex flex-col h-full">
                 <div className="w-24 h-24 bg-primary/10 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
                   <Image
-                    src="https://placehold.co/96x96"
+                    src="/darryl.jpg"
                     alt="Darryl Sandrina Faisal Putri"
                     width={96}
                     height={96}
@@ -221,24 +222,25 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Darryl Sandrina Faisal Putri</h3>
                 <p className="text-primary font-medium mb-2">Financial Analyst</p>
-                <p className="text-sm text-muted-foreground text-justify py-2 mb-4">A financial analyst with a strong academic background, holding a bachelor’s degree from SBM ITB and a master’s degree from Harvard Business School. Over the past five years, she has developed expertise in the capital market, focusing on Digital Telecommunications and Consumer Goods & Retail. </p>
+                <p className="text-sm text-muted-foreground text-justify py-2 mb-4">A financial analyst with a strong academic background, holding a bachelor’s degree from SBM ITB and a master’s degree from Harvard Business School. Over the past five years, she has developed expertise in the capital market, focusing on Digital Telecommunications and Consumer Goods & Retail.</p>
 
                 {/* Sector Specialization */}
-                <div className="text-left">
+                <div className="text-left mt-auto">
                   <p className="font-medium text-foreground mb-2">Sector Specialization:</p>
                   <ul className="list-disc list-inside text-sm text-muted-foreground space-y-1">
-                    <li>Consumer Goods</li>
-                    <li>-</li>
+                    <li>Technology</li>
+                    <li>Financials</li>
+                    <li>Basic Materials</li>
                   </ul>
                 </div>
               </CardContent>
             </Card>
 
             <Card>
-              <CardContent className="p-6 text-center">
+              <CardContent className="p-6 text-center flex flex-col h-full">
                 <div className="w-24 h-24 bg-primary/10 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
                   <Image
-                    src="https://placehold.co/96x96"
+                    src="/eldina.jpg"
                     alt="Dara Eldina Hutajulu"
                     width={96}
                     height={96}
@@ -247,24 +249,25 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Dara Eldina Hutajulu</h3>
                 <p className="text-primary font-medium mb-2">Financial Analyst</p>
-                <p className="text-sm text-muted-foreground text-justify py-2 mb-4">-</p>
+                <p className="text-sm text-muted-foreground text-justify py-2 mb-4">A financial analyst at Rasamala Investment with a management background from SBM ITB. She focuses on Financials, Technology, and Property & Real Estate sectors, with expertise in identifying growth opportunities and evaluating long-term value creation to deliver strategic investment insights.</p>
 
                 {/* Sector Specialization */}
-                <div className="text-left">
+                <div className="text-left mt-auto">
                   <p className="font-medium text-foreground mb-2">Sector Specialization:</p>
                   <ul className="list-disc list-inside text-sm text-muted-foreground space-y-1">
-                    <li>-</li>
-                    <li>-</li>
+                    <li>Financials</li>
+                    <li>Technology</li>
+                    <li>Properties & Real Estate</li>
                   </ul>
                 </div>
               </CardContent>
             </Card>
 
             <Card>
-              <CardContent className="p-6 text-center">
+              <CardContent className="p-6 text-center flex flex-col h-full">
                 <div className="w-24 h-24 bg-primary/10 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
                   <Image
-                    src="https://placehold.co/96x96"
+                    src="/jasonj.jpg"
                     alt="Jason Jahja"
                     width={96}
                     height={96}
@@ -276,21 +279,22 @@ export default function AboutPage() {
                 <p className="text-sm text-muted-foreground text-justify py-2 mb-4">A financial analyst with a bachelor’s degree from STEI ITB. Over the past three years, he has concentrated on analyzing Raw Materials, Industrials, and Technology sectors, developing a deep understanding of market trends and investment opportunities in these industries.</p>
 
                 {/* Sector Specialization */}
-                <div className="text-left">
+                <div className="text-left mt-auto">
                   <p className="font-medium text-foreground mb-2">Sector Specialization:</p>
                   <ul className="list-disc list-inside text-sm text-muted-foreground space-y-1">
-                    <li>-</li>
-                    <li>-</li>
+                    <li>Basic Materials</li>
+                    <li>Industrials</li>
+                    <li>Technology</li>
                   </ul>
                 </div>
               </CardContent>
             </Card>
 
             <Card>
-              <CardContent className="p-6 text-center">
+              <CardContent className="p-6 text-center flex flex-col h-full">
                 <div className="w-24 h-24 bg-primary/10 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
                   <Image
-                    src="https://placehold.co/96x96"
+                    src="/rio.jpg"
                     alt="Rio Rizky Ramadhan"
                     width={96}
                     height={96}
@@ -299,14 +303,15 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Rio Rizky Ramadhan</h3>
                 <p className="text-primary font-medium mb-2">Financial Analyst</p>
-                <p className="text-sm text-muted-foreground text-justify py-2 mb-4">-</p>
+                <p className="text-sm text-muted-foreground text-justify py-2 mb-4">A financial analyst at Rasamala Investment specializing in Technology, Energy, and Transportation & Logistics sectors. Previously, he spent two years at Evercore advising UK and European clients on mergers, acquisitions, and corporate finance matters.</p>
 
                 {/* Sector Specialization */}
-                <div className="text-left">
+                <div className="text-left mt-auto">
                   <p className="font-medium text-foreground mb-2">Sector Specialization:</p>
                   <ul className="list-disc list-inside text-sm text-muted-foreground space-y-1">
-                    <li>-</li>
-                    <li>-</li>
+                    <li>Technology</li>
+                    <li>Energy</li>
+                    <li>Transportation & Logistics</li>
                   </ul>
                 </div>
               </CardContent>

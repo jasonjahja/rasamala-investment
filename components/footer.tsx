@@ -62,28 +62,49 @@ export function Footer() {
                 <li>
                   <Link href="/services">
                     <div className="hover:text-primary transition-colors cursor-pointer">
-                      -
+                      Financials
                     </div>
                   </Link>
                 </li>
                 <li>
                   <Link href="/services">
                     <div className="hover:text-primary transition-colors cursor-pointer">
-                      -
+                      Property & Real Estate
                     </div>
                   </Link>
                 </li>
                 <li>
                   <Link href="/services">
                     <div className="hover:text-primary transition-colors cursor-pointer">
-                      -
+                      Energy
                     </div>
                   </Link>
                 </li>
                 <li>
                   <Link href="/services">
                     <div className="hover:text-primary transition-colors cursor-pointer">
-                      -
+                      Technology
+                    </div>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/services">
+                    <div className="hover:text-primary transition-colors cursor-pointer">
+                      Basic Materials
+                    </div>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/services">
+                    <div className="hover:text-primary transition-colors cursor-pointer">
+                      Industrials
+                    </div>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/services">
+                    <div className="hover:text-primary transition-colors cursor-pointer">
+                      Transportation & Logistics
                     </div>
                   </Link>
                 </li>
@@ -107,7 +128,7 @@ export function Footer() {
         <div className="border-t border-sidebar-border pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-muted-foreground text-sm text-center md:text-left">
-              © 2024 Rasamala. All rights reserved. | Privacy Policy | Terms of Service
+              © 2025 Rasamala. All rights reserved. | Privacy Policy | Terms of Service
             </div>
             <div className="flex space-x-4">
               <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-primary cursor-pointer">

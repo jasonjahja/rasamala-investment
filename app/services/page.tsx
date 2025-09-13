@@ -11,7 +11,18 @@ import {
   LineChart,
 } from "lucide-react"
 import Link from "next/link"
+import { Banknote, Building2, Fuel, Cpu, Boxes, Factory, Truck } from "lucide-react"
 import Image from "next/image"
+
+const sectors = [
+  { name: "Financials", icon: Banknote },
+  { name: "Property & Real Estate", icon: Building2 },
+  { name: "Energy", icon: Fuel },
+  { name: "Technology", icon: Cpu },
+  { name: "Basic Materials", icon: Boxes },
+  { name: "Industrials", icon: Factory },
+  { name: "Transportation & Logistics", icon: Truck },
+]
 
 export default function ServicesPage() {
   return (
@@ -101,7 +112,7 @@ export default function ServicesPage() {
         </section>
 
         {/* Investment Process */}
-        <section className="mb-16">
+        <section className="py-16 mb-16">
           <h2 className="text-3xl font-bold text-center text-foreground mb-12">Our Investment <span className="text-primary font-serif">Process</span></h2>
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
@@ -144,32 +155,16 @@ export default function ServicesPage() {
         </section>
 
         {/* Portfolio Sectors Section */}
-        <section className="py-16">
+        <section className="py-16 mb-16">
           <h2 className="text-3xl font-bold text-center text-foreground mb-12">
             Sectors We <span className="text-primary font-serif">Believed In</span>
           </h2>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 items-center justify-items-center">
-            {[
-              "/portfolio/logo1.png",
-              "/portfolio/logo2.png",
-              "/portfolio/logo3.png",
-              "/portfolio/logo4.png",
-              "/portfolio/logo5.png",
-              "/portfolio/logo6.png",
-              "/portfolio/logo7.png",
-              "/portfolio/logo8.png",
-              "/portfolio/logo9.png",
-              "/portfolio/logo10.png",
-            ].map((src, idx) => (
-              <div key={idx} className="flex items-center justify-center">
-                <Image
-                  src={src}
-                  alt={`Portfolio logo ${idx + 1}`}
-                  width={150}
-                  height={80}
-                  className="object-contain grayscale hover:grayscale-0 transition"
-                />
+            {sectors.map(({ name, icon: Icon }, idx) => (
+              <div key={idx} className="flex flex-col items-center justify-center text-center">
+                <Icon className="w-16 h-16 text-primary mb-4 transition-transform hover:scale-110" />
+                <p className="text-sm font-medium text-foreground">{name}</p>
               </div>
             ))}
           </div>
