@@ -267,7 +267,7 @@ export default function AboutPage() {
               <CardContent className="p-6 text-center flex flex-col h-full">
                 <div className="w-24 h-24 bg-primary/10 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
                   <Image
-                    src="/jasonj.png"
+                    src="/jason.png"
                     alt="Jason Jahja"
                     width={96}
                     height={96}
