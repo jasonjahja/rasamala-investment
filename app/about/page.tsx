@@ -187,7 +187,7 @@ export default function AboutPage() {
               <CardContent className="p-6 text-center flex flex-col h-full">
                 <div className="w-24 h-24 bg-primary/10 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
                   <Image
-                    src="/adi.jpg"
+                    src="/adi.JPG"
                     alt="Adi Ahmad Hidayat"
                     width={96}
                     height={96}
@@ -213,7 +213,7 @@ export default function AboutPage() {
               <CardContent className="p-6 text-center flex flex-col h-full">
                 <div className="w-24 h-24 bg-primary/10 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
                   <Image
-                    src="/darryl.jpg"
+                    src="/darryl.JPG"
                     alt="Darryl Sandrina Faisal Putri"
                     width={96}
                     height={96}
@@ -240,7 +240,7 @@ export default function AboutPage() {
               <CardContent className="p-6 text-center flex flex-col h-full">
                 <div className="w-24 h-24 bg-primary/10 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
                   <Image
-                    src="/eldina.jpg"
+                    src="/eldina.JPG"
                     alt="Dara Eldina Hutajulu"
                     width={96}
                     height={96}
@@ -267,7 +267,7 @@ export default function AboutPage() {
               <CardContent className="p-6 text-center flex flex-col h-full">
                 <div className="w-24 h-24 bg-primary/10 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
                   <Image
-                    src="/jasonj.jpg"
+                    src="/jasonj.JPG"
                     alt="Jason Jahja"
                     width={96}
                     height={96}
@@ -294,7 +294,7 @@ export default function AboutPage() {
               <CardContent className="p-6 text-center flex flex-col h-full">
                 <div className="w-24 h-24 bg-primary/10 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
                   <Image
-                    src="/rio.jpg"
+                    src="/rio.JPG"
                     alt="Rio Rizky Ramadhan"
                     width={96}
                     height={96}
