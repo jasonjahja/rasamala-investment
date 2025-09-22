@@ -1,5 +1,6 @@
 import { Header } from "@/components/header"
 import { HeroSection } from "@/components/hero-section"
+import { VideoSection } from "@/components/video-section"
 import { AboutSection } from "@/components/about-section"
 import { ApproachSection } from "@/components/approach-section"
 import { CTASection } from "@/components/cta-section"
@@ -13,6 +14,7 @@ export default function HomePage() {
       <Header />
       <main>
         <HeroSection />
+        <VideoSection />
         <AboutSection />
         <ApproachSection />
         <PortfolioSectorsSection />
