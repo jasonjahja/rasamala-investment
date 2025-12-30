@@ -2,6 +2,7 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import Image from "next/image"
 import Link from "next/link"
 import { ExternalLink } from "lucide-react"
 
@@ -10,6 +11,12 @@ const SHEET_URL =
 
 const EMBED_URL =
   "https://docs.google.com/spreadsheets/d/e/2PACX-1vTrvXV1jDERdZyeJph1dI1f3MJr4gjbQVoWrTQQwt61tfU4HXmyo7V7lF2OXqhAgPUusC6Zr-7iZKKR/pubhtml?widget=true&headers=false"
+
+const WEEKLY_CHART_IMG =
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vTrvXV1jDERdZyeJph1dI1f3MJr4gjbQVoWrTQQwt61tfU4HXmyo7V7lF2OXqhAgPUusC6Zr-7iZKKR/pubchart?oid=1534272852&format=image";
+
+const CUMULATIVE_CHART_IMG =
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vTrvXV1jDERdZyeJph1dI1f3MJr4gjbQVoWrTQQwt61tfU4HXmyo7V7lF2OXqhAgPUusC6Zr-7iZKKR/pubchart?oid=1191968447&format=image";
 
 export default function PortfolioPage() {
   return (
@@ -67,6 +74,59 @@ export default function PortfolioPage() {
             </CardContent>
           </Card>
         </section>
+
+        {/* Portfolio Performance Charts */}
+        <section className="mb-20">
+        <h2 className="text-3xl font-bold text-center text-foreground mb-16">
+            Portfolio <span className="text-primary font-serif">Performance</span>
+        </h2>
+
+        {/* Weekly Return */}
+        <Card className="border-2 mb-16">
+            <CardHeader className="pb-4">
+            <CardTitle className="text-2xl text-center">
+                Weekly Return Comparison
+            </CardTitle>
+            </CardHeader>
+
+            <CardContent className="p-0">
+                <div className="relative w-full aspect-[16/9] md:aspect-[21/9] bg-background">
+                    <Image
+                    src={WEEKLY_CHART_IMG}
+                    alt="Weekly Return Chart"
+                    fill
+                    className="object-contain"
+                    priority
+                    unoptimized
+                    />
+                </div>
+            </CardContent>
+
+        </Card>
+
+        {/* Cumulative Return */}
+        <Card className="border-2">
+            <CardHeader className="pb-4">
+            <CardTitle className="text-2xl text-center">
+                Cumulative Return Comparison
+            </CardTitle>
+            </CardHeader>
+
+            <CardContent className="p-0">
+                <div className="relative w-full aspect-[16/9] md:aspect-[21/9] bg-background">
+                    <Image
+                    src={CUMULATIVE_CHART_IMG}
+                    alt="Weekly Return Chart"
+                    fill
+                    className="object-contain"
+                    priority
+                    unoptimized
+                    />
+                </div>
+            </CardContent>
+        </Card>
+        </section>
+
       </main>
 
       <Footer />
