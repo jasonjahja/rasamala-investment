@@ -21,7 +21,7 @@ export function Footer() {
               </Link>
             </div>
             <p className="text-muted-foreground text-pretty">
-              Building wealth through expertise, integrity, and innovation since 2005.
+              Building wealth through expertise, integrity, and innovation since 2025.
             </p>
           </div>
 
